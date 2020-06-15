@@ -1,0 +1,1439 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-136163439-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-136163439-1');
+        </script>
+		
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>CropTrails</title>
+  <!-- Favicon -->
+  <link rel="icon" href="web\images\croptrails logo-01.png">
+
+  <!-- font awesome icon -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> -->
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!--Animate on scroll  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Preloader starts -->
+    <!-- <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+      </div> -->
+      <!-- preloader ends -->
+
+
+      <!-- ##### Header Area Start ##### -->
+
+      <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="famie-main-menu">
+          <div class="classy-nav-container breakpoint-off">
+            <div class="navbar" data-role="navbar">
+              <!-- Menu -->
+              <nav class="classy-navbar justify-content-between" id="famieNav">
+                <!-- Nav Brand -->
+                <div class="shadow">
+                <a href="index.html" class="nav-brand"><img class="pl-5" src="web\images\croptrails logoV-03.png" alt=""></a>
+                </div>
+                <!-- Navbar Toggler -->
+                <div class="classy-navbar-toggler">
+                  <span class="navbarToggler"><span></span><span></span><span></span></span>
+                </div>
+                <!-- Menu -->
+                <div class="classy-menu">
+                  <!-- Close Button -->
+                  <div class="classycloseIcon">
+                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                  </div>
+                  <!-- Navbar Start -->
+                  <div class="classynav">
+                    <ul id="myDIV">
+                      <li class="btn btn-sm mt-3 linked mt-3"><a href="#home-index">Home</a></li>
+                      <li class="btn btn-sm mt-3 linked"><a href="web\html\about.html">About</a></li>
+                      <li class="btn btn-sm mt-3 linked"><a href="#sectors">Sectors</a></li>
+                      <li class="btn btn-sm mt-3 linked"><a href="#features">Features</a></li>  
+                      <li class="btn btn-sm mt-3 linked"><a href="#solutions">Solutions</a></li>
+                      <li class="btn btn-sm mt-3 linked"><a href="web\html\package.html">Packages</a></li>
+                      <li class="btn btn-sm mt-3 linked"><a href="#demo">Demo</a></li>
+                      <li class="btn btn-sm mt-3 linked"><a href="web\html\contact.html">Contact</a></li>
+                      <li class="btn btn-sm mt-3 linked"><a href="https://blog.croptrails.farm/" target="_blank">Blog</a></li>
+                      <li class="btn btn-sm mt-3 linked" data-toggle="modal" data-target="#myModal"><a>App Login</a></li>
+                    </ul>
+
+                  </div>
+                  <!-- Navbar End -->
+                </div>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ##### Header Area End ##### -->
+
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header" style="border: 1px solid #e9ecef00">
+              <div class="text-center">
+                  <img src="web\images\croptrails logoV-03.png" class="rounded-circle img-fluid" alt="profile image" style="width: 42%;">
+                  <p>Login below to get started !</p>
+                </div>
+              <!-- <h4 class="modal-title">Modal Heading</h4> -->
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body body-design" style="padding: 4rem;margin-top: -60px;">
+              <form name="new_post" id="myform" action="https://croptrails.farm/ctPhp/index.php/authentication/login" enctype="application/x-www-form-urlencoded" method="POST">
+              <div class="form-group">
+                <div class="input-group">
+                <div class="input-group-prepend">
+                <span class="input-group-text" style=" background-color: #77b122;color: #fff"> <i class="fa fa-user"></i> </span>
+              </div>
+                <input type="text" class="form-control" name="username" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
+              </div>
+            </div>
+              <div class="form-group">
+                 <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" style=" background-color: #77b122;color: #fff"> <i class="fa fa-lock"></i> </span>
+              </div>
+                <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password">
+              </div>
+            </div>
+            <p id="msg"></p>
+              <button type="submit" class="btn btn-block btn-primary" style=" color: #fff;
+               background: #fff;color: green;border-color: green;font-family: 'karla',sans-serif;">Login</button>
+                <div style="text-align:center;position: relative;
+          top: 14px;
+          font-size: 12px;
+          font-family: 'karla',sans-serif;
+          ">
+          <span> Forgot Password ??
+            <a href="app2\index.htm#/forgot-password" style="color: #000; text-decoration: none;" target="_blank">Click Here</a>
+            <span>
+          </span></span></div>
+            </form>
+          </div>
+
+          <!-- Modal footer -->
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ##### Hero Area Start ##### -->
+    <div id="home-index" class="hero-area">
+      <div class="welcome-slides owl-carousel">
+
+        <!-- Single Welcome Slides -->
+        <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/1.jpg);">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-12 col-lg-10">
+                <div class="welcome-content">
+                  <h2 data-animation="fadeInUp" data-delay="200ms">Manage Farm On Finger Tips!</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/2.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Want Hustle Free Farm Management?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/3.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Want to skip pen and paper to Record your Farm Data?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/4.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Need Satellite Imagery Assistance in your Farm?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/15.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Want to go Digital with your Farm?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/6.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Want to Geo-Fence the Supervisior?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/7.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Struggling with lack of precise data?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/8.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Want to have access to farm data from any corner of the world?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/9.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Finding it difficult to manage data of multiple farms?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/10.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInUp" data-delay="200ms">Is Ineffectiveness of the supervisor and delayed reports bothering you?</h2>
+                <!-- <p data-animation="fadeInUp" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Single Welcome Slides -->
+      <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(web/images/banner/11.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInDown" data-delay="200ms">Want to increase your farm's productivity?</h2>
+                <!-- <p data-animation="fadeInDown" data-delay="400ms">Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
+                  Morbi arcu mi, dictum eu luala, dapibus
+                interdum mollis.</p> -->
+                <a href="web\html\contact.html" class="btn famie-btn mt-4" data-animation="bounceInDown" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- ##### Hero Area End ##### -->
+  <!-- ##### Benefits Area Start ##### -->
+  <section class="famie-benefits-area section-padding-100-0 pb-5">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- Section Heading -->
+          <div class="section-heading text-center">
+            <p>CropTrails</p>
+            <h2><span>A Farm </span>Management Application</h2>
+            <img src="web\images\img\decor2.png" alt="">
+          </div>
+          <p class="text-center">Gone are the days of carrying a notebook and pencil around the farm. 
+            We've built an easy to use holistic farm management application that will help you be more productive. 
+          With the help of CropTrails you can add, view, manage and rate multiple farms and farmers.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="benefits-thumbnail mb-50">
+            <img src="web\images\optimize-flowchart.gif" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="famie-benefits-area section-padding-100-0 pb-5" style="margin-bottom: 200px;">
+    <div class="container">
+      <!-- Section Heading -->
+      <div class="section-heading text-center">
+        <p>Workflow</p>
+        <h2><span>How Our </span>Application Work</h2>
+        <img src="web\images\img\decor2.png" alt="">
+      </div>
+
+      <div class="row justify-content-center">
+
+        <!-- Single Benefits Area -->
+        <div class="card-deck ">
+
+            <div class="card border-0 pt-3" style=" height:150px; width: 140px;">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+            <img src="web\images\new icons\big-icons\14.png" alt="">
+            <h5 >Crop Planning</h5>
+          </div>
+            </div>
+
+            <div class="card border-0 pt-3" style=" height:150px; width: 140px;">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+            <img src="web\images\new icons\big-icons\fence.PNG" alt="">
+            <h5 class="mt-2">Farm Geo-Fencing</h5>
+          </div>
+            </div>
+
+            <div class="card border-0 pt-3" style=" height:150px; width: 140px;">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+            <img src="web\images\new icons\big-icons\03.png" alt="">
+            <h5 >Farm Visit Tracking</h5>
+          </div>
+            </div>
+
+            <div class="card border-0 pt-3" style=" height:150px; width: 140px;">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+            <img src="web\images\new icons\big-icons\06.png" alt="">
+            <h5 >Yield Production</h5>
+          </div>
+            </div>
+
+            <div class="card border-0 pt-3" style=" height:150px; width: 140px;">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+            <img src="web\images\new icons\big-icons\02.png" alt="">
+            <h5 >Harvest</h5>
+          </div>
+            </div>
+
+            <div class="card border-0 pt-3" style=" height:150px; width: 140px;">
+              <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+            <img src="web\images\new icons\big-icons\20.png" alt="">
+            <h5 >Analysis & Report</h5>
+          </div>
+            </div>
+  
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ##### Benefits Area End ##### -->
+  
+  <!-- ##### About Us Area Start ##### -->
+  <section id="about" class="about-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-md-8">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>About us</p>
+              <h2><span>Let Us</span> Tell You Our Story</h2>
+              <img src="web\images\img\decor.png" alt="">
+            </div>
+
+
+            <p style="text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 
+                                    2px 1px 1px #ccc, 1px 2px 1px #eee,
+                                    3px 2px 1px #ccc, 2px 3px 1px #eee,
+                                    4px 3px 1px #ccc, 3px 4px 1px #eee,
+                                    5px 4px 1px #ccc, 4px 5px 1px #eee,
+                                    6px 5px 1px #ccc, 5px 6px 1px #eee,
+              7px 6px 1px #ccc;">CropTrails, a web and android application, is a SaaS model of Innovation based company, 
+              OEPP Innovations Pvt Ltd (9930i) which provides ag-tech solutions for worldwide agricultural problems.
+              It is designed to bridge gaps in the process of Farm Management. The tools are used to sustain and increase
+            efficiency and productivity of the yield.</p>
+            <p>
+
+              An initiative to salute those who
+              <span style="font-weight: bolder;">'work in acres not 
+              in hours'</span>.</p>
+              <!-- <a href="html/about.html" class="btn famie-btn mt-30">Read More</a> -->
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-4">
+            <div class="mb-100 d-none d-sm-none d-md-block">
+              <img src="web\images\final_loader.gif" alt="">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ##### About Us Area End ##### -->
+
+    <!-- ##### Services Area Start ##### -->
+    <section id="sectors" class="services-area d-flex flex-wrap">
+      <!-- Service Thumbnail -->
+      <div class="services-thumbnail bg-img jarallax" style="background-image: url('web/images/banner/19.jpg');"></div>
+
+      <!-- Service Content -->
+      <div class="services-content section-padding-100-50 px-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <!-- Section Heading -->
+              <div class="section-heading">
+                <p>Sectors</p>
+                <h2><span>We Serve</span> in various sectors</h2>
+                <img src="web\images\img\decor.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 mb-50">
+              <p>We democratize data for all stakeholders of the industry, connecting the ecosystem to a 
+                platform that empowers them to benefit from data-driven farming. CropTrails mobile applications are 
+                scalable from small co-operatives, farmer producer organization to large agribusiness corporations and 
+              government agencies working in the sustainable development sector.</p>
+            </div>
+
+            <!-- Single Service Area -->
+            <div class="col-12 col-lg-6">
+              <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                <!-- Service Title -->
+                <div class="service-title mb-3 d-flex align-items-center">
+                  <img class="img-circle zoom" src="web\images\sectors\2.png" alt="">
+                  <h5>Farming Companies</h5>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Service Area -->
+            <div class="col-12 col-lg-6">
+              <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="700ms">
+                <!-- Service Title -->
+                <div class="service-title mb-3 d-flex align-items-center">
+                  <img class="img-circle zoom" src="web\images\sectors\5.png" alt="">
+                  <h5>Agri Financial Lending</h5>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Service Area -->
+            <div class="col-12 col-lg-6">
+              <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="500ms">
+                <!-- Service Title -->
+                <div class="service-title mb-3 d-flex align-items-center">
+                  <img class="img-circle zoom" src="web\images\sectors\3.png" alt="">
+                  <h5>Agri Input Companies</h5>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Single Service Area -->
+            <div class="col-12 col-lg-6">
+              <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="300ms">
+                <!-- Service Title -->
+                <div class="service-title mb-3 d-flex align-items-center">
+                  <img class="img-circle zoom" src="web\images\sectors\4.png" alt="">
+                  <h5>Seed Producers</h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a href="web\html\sectors.html" class="btn  btn-sm btn-dark famie-btn mt-30 p-3">Explore More</a>
+
+        </div>
+      </div>
+    </section>
+    <!-- ##### Services Area End ##### -->
+
+
+
+
+    <!-- ##### Features Area Start ##### -->
+    <section id="features" class="farming-practice-area section-padding-100-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- Section Heading -->
+            <div class="section-heading text-center">
+              <p>Features</p>
+              <h2><span>Our Quality</span> Specifications</h2>
+              <img src="web\images\img\decor2.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Single Features Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+              <!-- Thumbnail -->
+              <div class="farming-practice-thumbnail">
+                <img src="web\images\features\appfeature1.png" alt="">
+              </div>
+              <!-- Content -->
+              <div class="farming-practice-content text-center">
+                <!-- Icon -->
+                <div class="farming-icon">
+                  <img  src="web\images\new icons\big-icons\satellite.PNG" style="width: 55%;" alt="">
+                </div>
+                <h5>Satellite Data Analysis</h5>
+                <p>Integrates satellite,
+                  Farmer's financial security,
+                Exploited by the agri-insurance sector.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Features Area -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="200ms">
+              <!-- Thumbnail -->
+              <div class="farming-practice-thumbnail">
+                <img src="web\images\features\appfeature2.png" alt="">
+              </div>
+              <!-- Content -->
+              <div class="farming-practice-content text-center">
+                <!-- Icon -->
+                <div class="farming-icon">
+                  <img src="web\images\new icons\big-icons\fence.PNG" style="width: 60%;" alt="">
+                </div>
+                <h5>Farm Geo Fencing</h5>
+                <p>Capture GPS based accurate farm area,
+                  View captured area on map,
+                Avoid swindling.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Features Area -->
+          <div class="col-12 col-sm-6 col-lg-4" style="margin:0 auto;">
+            <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="600ms">
+              <!-- Thumbnail -->
+              <div class="farming-practice-thumbnail">
+                <img src="web\images\features\appfeature4.png" alt="">
+              </div>
+              <!-- Content -->
+              <div class="farming-practice-content text-center">
+                <!-- Icon -->
+                <div class="farming-icon">
+                  <img src="web\images\new icons\big-icons\real-time.PNG" style="width: 60%;" alt="">
+                </div>
+                <h5>Real Time Farm Data</h5>
+                <p>Track crop status,
+                  Emergency notifications,
+                  Custom push notifications,
+                Improved decision making</p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="gotoshop-btn text-center wow fadeInUp" data-wow-delay="900ms">
+          <a href="web\html\features.html" class="btn btn-sm btn-dark p-3 famie-btn">View All Features</a>
+        </div>
+      </div>
+    </section>
+    <!-- ##### Features Area End ##### -->
+
+    <!-- About -->
+    <section id="solutions" class="farming-practice-area section-padding-100-50" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- Section Heading -->
+            <div class="section-heading text-center">
+              <p>Solutions</p>
+              <h2><span>Our Diverse</span> Solutions</h2>
+              <img src="web\images\img\decor2.png" alt="">
+            </div>  
+          </div>
+        </div>
+
+        <div class="col-12 mb-50 text-center">
+          <p>We democratize data for all stakeholders of the industry, connecting the ecosystem to a 
+            platform that empowers them to benefit from data-driven farming. CropTrails mobile applications are 
+            scalable from small co-operatives, farmer producer organization to large agribusiness corporations and 
+          government agencies working in the sustainable development sector.</p>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="web\images\solution\circle-cropped.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading single-farming-practice-area  wow fadeInUp" data-wow-delay="100ms">
+                    <!-- <h4>2009-2011</h4> -->
+                    <h4 class="subheading">Farm Management</h4>
+                  </div>
+                  <div class="timeline-body single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                    <p class="text-muted">Collect data during Farmer and Farm enrollment,
+                      Save and update it periodically,
+                    Data helps Government to formulate policies.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="web\images\solution\circle-cropped (5).png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading single-farming-practice-area  wow fadeInUp" data-wow-delay="100ms">
+                    <!-- <h4>March 2011</h4> -->
+                    <h4 class="subheading">Farm Inspection</h4>
+                  </div>
+                  <div class="timeline-body single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                    <p class="text-muted">For pests and crop diseases,
+                      Irrigation and fertigation processes,
+                    Whether crop calendar is implemented or not.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="web\images\solution\circle-cropped (4).png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading single-farming-practice-area  wow fadeInUp" data-wow-delay="100ms">
+                    <!-- <h4>December 2012</h4> -->
+                    <h4 class="subheading">Crop Calendar Implementation</h4>
+                  </div>
+                  <div class="timeline-body single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                    <p class="text-muted">Input crop calendars,
+                      Assign them to farmers and supervisors,
+                    Track and verify response of planning.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="web\images\solution\circle-cropped (3).png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading single-farming-practice-area  wow fadeInUp" data-wow-delay="100ms">
+                    <!-- <h4>July 2014</h4> -->
+                    <h4 class="subheading">Analytical Dashboard & Reports</h4>
+                  </div>
+                  <div class="timeline-body single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                    <p class="text-muted">Insightful dashboard,
+                      Simplified stats and reports,
+                      Quick data retrieval in filtered formats,
+                    Customised reports available.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image ">
+                  <img class="rounded-circle img-fluid" src="web\images\solution\circle-cropped (1).png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading single-farming-practice-area  wow fadeInUp" data-wow-delay="100ms">
+                    <!-- <h4>December 2012</h4> -->
+                    <h4 class="subheading">Farm Financial Management</h4>
+                  </div>
+                  <div class="timeline-body single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                    <p class="text-muted">Manage inventory accounts,
+                      Manages cost of cultivation,
+                    Manage your farm related financial accounts all-in-one place.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <a href="web\html\solutions.html" style=" text-decoration: none; text-decoration-color: #fff;"><h4 class=" subheading" style="color: #fff; font-weight: bolder; padding-top: 20px;">Explore More</h4></a>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ##### Demo Area Start ##### -->
+    <section id="demo" class="contact-area bg-gray section-padding-100-0">
+      <div class="container">
+        <div class="row align-items-end">
+
+          <!-- Contact Content -->
+          <div class="col-12 col-lg-7">
+            <div class="contact-content section-padding-0-100">
+              <!-- Section Heading -->
+              <div class="section-heading">
+                <p>Request A Demo</p>
+                <h2><span>Schedule A</span> Demo With Us</h2>
+                <img src="web\images\img\decor.png" alt="">
+              </div>
+              <!-- Contact Form Area -->
+              <div class="contact-form-area">
+                <form id="RequestDemoForm" action="https://www.909corns.in/email/index.php/email/croptrails_demo" method="post">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" name="org" required="please fill this field" placeholder="Company Name *" pattern="[\w].*" title="Please enter a valid company name">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" name="org_site" placeholder="Company Website" pattern="^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$" title="Please enter a valid url">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" name="eml" placeholder="Email *" required="">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" name="nm" placeholder="Contact Name *" pattern="^(?!\s*$)[-a-zA-Z_.\s]{1,100}$" title="The field should not contain numbers and special characters" required="">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" name="phn" pattern="[1-9]{1}[0-9]{9}" title="Please enter a valid number" placeholder="Contact Number *" required="">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" name="city" placeholder="City *" pattern="^(?!\s*$)[-a-zA-Z_.\s]{1,100}$" title="The field should not contain numbers and special characters" required="">
+                    </div>
+                    <div class="col-lg-12">
+                      <input type="text" name="cty" class="form-control" placeholder="Country *" id="country" pattern="^(?!\s*$)[-a-zA-Z_.\s]{1,100}$" title="The field should not contain numbers and special characters" required="">
+                    </div>
+
+                    <div class="col-12">
+                      <label style="font-family: 'Karla',san-serif; padding-bottom: 20px;">
+                        <input type="checkbox" required="">
+                        I consent to be contacted by their CropTrails representative & to
+                        store my personal information provided above.
+                      </label>
+                      <!-- <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea> -->
+                    </div>
+
+                    <input type="hidden" name="site" value="CropTrails">
+                    <input type="hidden" name="send_from" value="noreply@9930i.com">
+                    <input type="hidden" name="bcc" value="noreply@9930i.com ,sales@croptrails.farm">
+                    <input type="hidden" name="subject" value="Contact Query CropTrails">
+                    <input type="hidden" name="heading" value="Team CropTrails">
+                    <input type="hidden" name="text_message" value="Thank you !! Your Query Regarding CropTrails has been received. We will contact You soon!!">
+                    <input type="hidden" name="redirect_link" value="https://croptrails.farm/">
+                    <!-- <input type="hidden" name="redirect_success_link" value="https://www.9930i.com/thankyou.html"> -->
+                    <input type="hidden" name="redirect_success_link" value="https://croptrails.farm/thankyou.html">
+                    <input type="hidden" name="redirect_failure_link" value="https://croptrails.farm/">
+
+
+                    <div class="col-12">
+                      <button type="submit" class="btn famie-btn" name="button">Send Message</button>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Maps -->
+          <div class="col-lg-5">
+            <div class="consaltant-thumbnail text-center">
+              <img src="web\images\about-image_.png" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ##### Demo Area End ##### -->
+
+    <!-- ##### Testimonial Area Start ##### -->
+    <section class="testimonial-area bg-img bg-overlay section-padding-100 jarallax" style="background-image: url('web/images/banner/16.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- Testimonial Slides -->
+            <div class="testimonial-slides owl-carousel">
+
+              <!-- Single Slide -->
+              <div class="single-slide">
+                <!-- Testimonial Text -->
+                <div class="testi-text d-flex">
+                  <div class="quote-icon">
+                    <img src="web\images\img\quote.png" alt="">
+                  </div>
+                  <h5>"CropTrails has helped us in the entire process from Planning, Prediction, 
+                    Management to Analysing and Reporting. It's saves time and we recommend it for it's 
+                  easy to use Interface."</h5>
+                </div>
+                <!-- Testimonial Thumbnail Name -->
+                <div class="testimonial-thumbnail-name d-flex align-items-center">
+                  <div>
+                    <img src="web\images\new icons\big-icons\13.png" alt="">
+                  </div>
+                  <div class="testimonial-name">
+                    <h5>Farming Company</h5>
+                    <h6>Hyderabad, India</h6>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Single Slide -->
+              <div class="single-slide">
+                <!-- Testimonial Text -->
+                <div class="testi-text d-flex">
+                  <div class="quote-icon">
+                    <img src="web\images\img\quote.png" alt="">
+                  </div>
+                  <h5>"The Geo-Fencing and Real Time feature is what makes us glued to CropTrails. 
+                    It helps us keep an eye on farm, the yield and its progress. It also improves engagement
+                  with the farmers."</h5>
+                </div>
+                <!-- Testimonial Thumbnail Name -->
+                <div class="testimonial-thumbnail-name d-flex align-items-center">
+                  <div>
+                    <img src="web\images\new icons\big-icons\10.png" alt="">
+                  </div>
+                  <div class="testimonial-name">
+                    <h5>Contract Farming</h5>
+                    <h6>Ranchi, India</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single Slide -->
+              <div class="single-slide">
+                <!-- Testimonial Text -->
+                <div class="testi-text d-flex">
+                  <div class="quote-icon">
+                    <img src="web\images\img\quote.png" alt="">
+                  </div>
+                  <h5>"We're glad to associate with CropTrails. They've customised the plan according to 
+                    our needs, it has resulted in clear veiw of our funds utilization on the farm and further
+                  provides us security from frauds. CropTrails is exactly where affordability meets quality!"</h5>
+                </div>
+                <!-- Testimonial Thumbnail Name -->
+                <div class="testimonial-thumbnail-name d-flex align-items-center">
+                  <div>
+                    <img src="web\images\new icons\big-icons\03.png" alt="">
+                  </div>
+                  <div class="testimonial-name">
+                    <h5>Agri lender</h5>
+                    <h6>Country-wide, India</h6>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ##### Testimonial Area End ##### -->
+
+    <!-- ##### Contact Area Start ##### -->
+    <section id="contact" class="contact-area section-padding-100-0">
+      <div class="container">
+        <div class="row justify-content-between">
+
+          <!-- Contact Content -->
+          <div class="col-12 col-lg-5">
+            <div class="contact-content mb-100">
+              <!-- Section Heading -->
+              <div class="section-heading">
+                <p>Contact now</p>
+                <h2><span>Get In Touch</span> With Us</h2>
+                <img src="web\images\img\decor.png" alt="">
+              </div>
+              <!-- Contact Form Area -->
+              <div class="contact-form-area">
+                <form action="https://www.909corns.in/email/index.php/email/emailModel" method="post">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" name="nm" required="please fill this field" pattern="[\w].*" title="Please enter your Name" placeholder="Your Name">
+                    </div>
+                    <div class="col-lg-6">
+                      <input type="email" class="form-control" name="eml" required="" placeholder="Your Email">
+                    </div>
+
+                    <div class="col-lg-6">
+                      <select name="cntryCd" class="form-control">
+                        <div id="output">
+                          <option data-countrycode="GB" value="44" selected="">India (+91)</option>
+                          <optgroup label="Other countries">
+                            <option data-countrycode="DZ" value="213">Algeria (+213)</option>
+                            <option data-countrycode="AD" value="376">Andorra (+376)</option>
+                            <option data-countrycode="AO" value="244">Angola (+244)</option>
+                            <option data-countrycode="AI" value="1264">Anguilla (+1264)</option>
+                            <option data-countrycode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+                            <option data-countrycode="AR" value="54">Argentina (+54)</option>
+                            <option data-countrycode="AM" value="374">Armenia (+374)</option>
+                            <option data-countrycode="AW" value="297">Aruba (+297)</option>
+                            <option data-countrycode="AU" value="61">Australia (+61)</option>
+                            <option data-countrycode="AT" value="43">Austria (+43)</option>
+                            <option data-countrycode="AZ" value="994">Azerbaijan (+994)</option>
+                            <option data-countrycode="BS" value="1242">Bahamas (+1242)</option>
+                            <option data-countrycode="BH" value="973">Bahrain (+973)</option>
+                            <option data-countrycode="BD" value="880">Bangladesh (+880)</option>
+                            <option data-countrycode="BB" value="1246">Barbados (+1246)</option>
+                            <option data-countrycode="BY" value="375">Belarus (+375)</option>
+                            <option data-countrycode="BE" value="32">Belgium (+32)</option>
+                            <option data-countrycode="BZ" value="501">Belize (+501)</option>
+                            <option data-countrycode="BJ" value="229">Benin (+229)</option>
+                            <option data-countrycode="BM" value="1441">Bermuda (+1441)</option>
+                            <option data-countrycode="BT" value="975">Bhutan (+975)</option>
+                            <option data-countrycode="BO" value="591">Bolivia (+591)</option>
+                            <option data-countrycode="BA" value="387">Bosnia Herzegovina (+387)</option>
+                            <option data-countrycode="BW" value="267">Botswana (+267)</option>
+                            <option data-countrycode="BR" value="55">Brazil (+55)</option>
+                            <option data-countrycode="BN" value="673">Brunei (+673)</option>
+                            <option data-countrycode="BG" value="359">Bulgaria (+359)</option>
+                            <option data-countrycode="BF" value="226">Burkina Faso (+226)</option>
+                            <option data-countrycode="BI" value="257">Burundi (+257)</option>
+                            <option data-countrycode="KH" value="855">Cambodia (+855)</option>
+                            <option data-countrycode="CM" value="237">Cameroon (+237)</option>
+                            <option data-countrycode="CA" value="1">Canada (+1)</option>
+                            <option data-countrycode="CV" value="238">Cape Verde Islands (+238)</option>
+                            <option data-countrycode="KY" value="1345">Cayman Islands (+1345)</option>
+                            <option data-countrycode="CF" value="236">Central African Republic (+236)</option>
+                            <option data-countrycode="CL" value="56">Chile (+56)</option>
+                            <option data-countrycode="CN" value="86">China (+86)</option>
+                            <option data-countrycode="CO" value="57">Colombia (+57)</option>
+                            <option data-countrycode="KM" value="269">Comoros (+269)</option>
+                            <option data-countrycode="CG" value="242">Congo (+242)</option>
+                            <option data-countrycode="CK" value="682">Cook Islands (+682)</option>
+                            <option data-countrycode="CR" value="506">Costa Rica (+506)</option>
+                            <option data-countrycode="HR" value="385">Croatia (+385)</option>
+                            <option data-countrycode="CU" value="53">Cuba (+53)</option>
+                            <option data-countrycode="CY" value="90392">Cyprus North (+90392)</option>
+                            <option data-countrycode="CY" value="357">Cyprus South (+357)</option>
+                            <option data-countrycode="CZ" value="42">Czech Republic (+42)</option>
+                            <option data-countrycode="DK" value="45">Denmark (+45)</option>
+                            <option data-countrycode="DJ" value="253">Djibouti (+253)</option>
+                            <option data-countrycode="DM" value="1809">Dominica (+1809)</option>
+                            <option data-countrycode="DO" value="1809">Dominican Republic (+1809)</option>
+                            <option data-countrycode="EC" value="593">Ecuador (+593)</option>
+                            <option data-countrycode="EG" value="20">Egypt (+20)</option>
+                            <option data-countrycode="SV" value="503">El Salvador (+503)</option>
+                            <option data-countrycode="GQ" value="240">Equatorial Guinea (+240)</option>
+                            <option data-countrycode="ER" value="291">Eritrea (+291)</option>
+                            <option data-countrycode="EE" value="372">Estonia (+372)</option>
+                            <option data-countrycode="ET" value="251">Ethiopia (+251)</option>
+                            <option data-countrycode="FK" value="500">Falkland Islands (+500)</option>
+                            <option data-countrycode="FO" value="298">Faroe Islands (+298)</option>
+                            <option data-countrycode="FJ" value="679">Fiji (+679)</option>
+                            <option data-countrycode="FI" value="358">Finland (+358)</option>
+                            <option data-countrycode="FR" value="33">France (+33)</option>
+                            <option data-countrycode="GF" value="594">French Guiana (+594)</option>
+                            <option data-countrycode="PF" value="689">French Polynesia (+689)</option>
+                            <option data-countrycode="GA" value="241">Gabon (+241)</option>
+                            <option data-countrycode="GM" value="220">Gambia (+220)</option>
+                            <option data-countrycode="GE" value="7880">Georgia (+7880)</option>
+                            <option data-countrycode="DE" value="49">Germany (+49)</option>
+                            <option data-countrycode="GH" value="233">Ghana (+233)</option>
+                            <option data-countrycode="GI" value="350">Gibraltar (+350)</option>
+                            <option data-countrycode="GR" value="30">Greece (+30)</option>
+                            <option data-countrycode="GL" value="299">Greenland (+299)</option>
+                            <option data-countrycode="GD" value="1473">Grenada (+1473)</option>
+                            <option data-countrycode="GP" value="590">Guadeloupe (+590)</option>
+                            <option data-countrycode="GU" value="671">Guam (+671)</option>
+                            <option data-countrycode="GT" value="502">Guatemala (+502)</option>
+                            <option data-countrycode="GN" value="224">Guinea (+224)</option>
+                            <option data-countrycode="GW" value="245">Guinea - Bissau (+245)</option>
+                            <option data-countrycode="GY" value="592">Guyana (+592)</option>
+                            <option data-countrycode="HT" value="509">Haiti (+509)</option>
+                            <option data-countrycode="HN" value="504">Honduras (+504)</option>
+                            <option data-countrycode="HK" value="852">Hong Kong (+852)</option>
+                            <option data-countrycode="HU" value="36">Hungary (+36)</option>
+                            <option data-countrycode="IS" value="354">Iceland (+354)</option>
+                            <option data-countrycode="IN" value="91">India (+91)</option>
+                            <option data-countrycode="ID" value="62">Indonesia (+62)</option>
+                            <option data-countrycode="IR" value="98">Iran (+98)</option>
+                            <option data-countrycode="IQ" value="964">Iraq (+964)</option>
+                            <option data-countrycode="IE" value="353">Ireland (+353)</option>
+                            <option data-countrycode="IL" value="972">Israel (+972)</option>
+                            <option data-countrycode="IT" value="39">Italy (+39)</option>
+                            <option data-countrycode="JM" value="1876">Jamaica (+1876)</option>
+                            <option data-countrycode="JP" value="81">Japan (+81)</option>
+                            <option data-countrycode="JO" value="962">Jordan (+962)</option>
+                            <option data-countrycode="KZ" value="7">Kazakhstan (+7)</option>
+                            <option data-countrycode="KE" value="254">Kenya (+254)</option>
+                            <option data-countrycode="KI" value="686">Kiribati (+686)</option>
+                            <option data-countrycode="KP" value="850">Korea North (+850)</option>
+                            <option data-countrycode="KR" value="82">Korea South (+82)</option>
+                            <option data-countrycode="KW" value="965">Kuwait (+965)</option>
+                            <option data-countrycode="KG" value="996">Kyrgyzstan (+996)</option>
+                            <option data-countrycode="LA" value="856">Laos (+856)</option>
+                            <option data-countrycode="LV" value="371">Latvia (+371)</option>
+                            <option data-countrycode="LB" value="961">Lebanon (+961)</option>
+                            <option data-countrycode="LS" value="266">Lesotho (+266)</option>
+                            <option data-countrycode="LR" value="231">Liberia (+231)</option>
+                            <option data-countrycode="LY" value="218">Libya (+218)</option>
+                            <option data-countrycode="LI" value="417">Liechtenstein (+417)</option>
+                            <option data-countrycode="LT" value="370">Lithuania (+370)</option>
+                            <option data-countrycode="LU" value="352">Luxembourg (+352)</option>
+                            <option data-countrycode="MO" value="853">Macao (+853)</option>
+                            <option data-countrycode="MK" value="389">Macedonia (+389)</option>
+                            <option data-countrycode="MG" value="261">Madagascar (+261)</option>
+                            <option data-countrycode="MW" value="265">Malawi (+265)</option>
+                            <option data-countrycode="MY" value="60">Malaysia (+60)</option>
+                            <option data-countrycode="MV" value="960">Maldives (+960)</option>
+                            <option data-countrycode="ML" value="223">Mali (+223)</option>
+                            <option data-countrycode="MT" value="356">Malta (+356)</option>
+                            <option data-countrycode="MH" value="692">Marshall Islands (+692)</option>
+                            <option data-countrycode="MQ" value="596">Martinique (+596)</option>
+                            <option data-countrycode="MR" value="222">Mauritania (+222)</option>
+                            <option data-countrycode="YT" value="269">Mayotte (+269)</option>
+                            <option data-countrycode="MX" value="52">Mexico (+52)</option>
+                            <option data-countrycode="FM" value="691">Micronesia (+691)</option>
+                            <option data-countrycode="MD" value="373">Moldova (+373)</option>
+                            <option data-countrycode="MC" value="377">Monaco (+377)</option>
+                            <option data-countrycode="MN" value="976">Mongolia (+976)</option>
+                            <option data-countrycode="MS" value="1664">Montserrat (+1664)</option>
+                            <option data-countrycode="MA" value="212">Morocco (+212)</option>
+                            <option data-countrycode="MZ" value="258">Mozambique (+258)</option>
+                            <option data-countrycode="MN" value="95">Myanmar (+95)</option>
+                            <option data-countrycode="NA" value="264">Namibia (+264)</option>
+                            <option data-countrycode="NR" value="674">Nauru (+674)</option>
+                            <option data-countrycode="NP" value="977">Nepal (+977)</option>
+                            <option data-countrycode="NL" value="31">Netherlands (+31)</option>
+                            <option data-countrycode="NC" value="687">New Caledonia (+687)</option>
+                            <option data-countrycode="NZ" value="64">New Zealand (+64)</option>
+                            <option data-countrycode="NI" value="505">Nicaragua (+505)</option>
+                            <option data-countrycode="NE" value="227">Niger (+227)</option>
+                            <option data-countrycode="NG" value="234">Nigeria (+234)</option>
+                            <option data-countrycode="NU" value="683">Niue (+683)</option>
+                            <option data-countrycode="NF" value="672">Norfolk Islands (+672)</option>
+                            <option data-countrycode="NP" value="670">Northern Marianas (+670)</option>
+                            <option data-countrycode="NO" value="47">Norway (+47)</option>
+                            <option data-countrycode="OM" value="968">Oman (+968)</option>
+                            <option data-countrycode="PW" value="680">Palau (+680)</option>
+                            <option data-countrycode="PA" value="507">Panama (+507)</option>
+                            <option data-countrycode="PG" value="675">Papua New Guinea (+675)</option>
+                            <option data-countrycode="PY" value="595">Paraguay (+595)</option>
+                            <option data-countrycode="PE" value="51">Peru (+51)</option>
+                            <option data-countrycode="PH" value="63">Philippines (+63)</option>
+                            <option data-countrycode="PL" value="48">Poland (+48)</option>
+                            <option data-countrycode="PT" value="351">Portugal (+351)</option>
+                            <option data-countrycode="PR" value="1787">Puerto Rico (+1787)</option>
+                            <option data-countrycode="QA" value="974">Qatar (+974)</option>
+                            <option data-countrycode="RE" value="262">Reunion (+262)</option>
+                            <option data-countrycode="RO" value="40">Romania (+40)</option>
+                            <option data-countrycode="RU" value="7">Russia (+7)</option>
+                            <option data-countrycode="RW" value="250">Rwanda (+250)</option>
+                            <option data-countrycode="SM" value="378">San Marino (+378)</option>
+                            <option data-countrycode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
+                            <option data-countrycode="SA" value="966">Saudi Arabia (+966)</option>
+                            <option data-countrycode="SN" value="221">Senegal (+221)</option>
+                            <option data-countrycode="CS" value="381">Serbia (+381)</option>
+                            <option data-countrycode="SC" value="248">Seychelles (+248)</option>
+                            <option data-countrycode="SL" value="232">Sierra Leone (+232)</option>
+                            <option data-countrycode="SG" value="65">Singapore (+65)</option>
+                            <option data-countrycode="SK" value="421">Slovak Republic (+421)</option>
+                            <option data-countrycode="SI" value="386">Slovenia (+386)</option>
+                            <option data-countrycode="SB" value="677">Solomon Islands (+677)</option>
+                            <option data-countrycode="SO" value="252">Somalia (+252)</option>
+                            <option data-countrycode="ZA" value="27">South Africa (+27)</option>
+                            <option data-countrycode="ES" value="34">Spain (+34)</option>
+                            <option data-countrycode="LK" value="94">Sri Lanka (+94)</option>
+                            <option data-countrycode="SH" value="290">St. Helena (+290)</option>
+                            <option data-countrycode="KN" value="1869">St. Kitts (+1869)</option>
+                            <option data-countrycode="SC" value="1758">St. Lucia (+1758)</option>
+                            <option data-countrycode="SD" value="249">Sudan (+249)</option>
+                            <option data-countrycode="SR" value="597">Suriname (+597)</option>
+                            <option data-countrycode="SZ" value="268">Swaziland (+268)</option>
+                            <option data-countrycode="SE" value="46">Sweden (+46)</option>
+                            <option data-countrycode="CH" value="41">Switzerland (+41)</option>
+                            <option data-countrycode="SI" value="963">Syria (+963)</option>
+                            <option data-countrycode="TW" value="886">Taiwan (+886)</option>
+                            <option data-countrycode="TJ" value="7">Tajikstan (+7)</option>
+                            <option data-countrycode="TH" value="66">Thailand (+66)</option>
+                            <option data-countrycode="TG" value="228">Togo (+228)</option>
+                            <option data-countrycode="TO" value="676">Tonga (+676)</option>
+                            <option data-countrycode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
+                            <option data-countrycode="TN" value="216">Tunisia (+216)</option>
+                            <option data-countrycode="TR" value="90">Turkey (+90)</option>
+                            <option data-countrycode="TM" value="7">Turkmenistan (+7)</option>
+                            <option data-countrycode="TM" value="993">Turkmenistan (+993)</option>
+                            <option data-countrycode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
+                            <option data-countrycode="TV" value="688">Tuvalu (+688)</option>
+                            <option data-countrycode="UG" value="256">Uganda (+256)</option>
+                            <option data-countrycode="UA" value="380">Ukraine (+380)</option>
+                            <option data-countrycode="UK" value="380">Uk (+44)</option>
+                            <option data-countrycode="AE" value="971">United Arab Emirates (+971)</option>
+                            <option data-countrycode="UY" value="598">Uruguay (+598)</option>
+                            <option data-countrycode="US" value="1">USA (+1)</option>
+                            <option data-countrycode="UZ" value="7">Uzbekistan (+7)</option>
+                            <option data-countrycode="VU" value="678">Vanuatu (+678)</option>
+                            <option data-countrycode="VA" value="379">Vatican City (+379)</option>
+                            <option data-countrycode="VE" value="58">Venezuela (+58)</option>
+                            <option data-countrycode="VN" value="84">Vietnam (+84)</option>
+                            <option data-countrycode="VG" value="84">Virgin Islands - British (+1284)</option>
+                            <option data-countrycode="VI" value="84">Virgin Islands - US (+1340)</option>
+                            <option data-countrycode="WF" value="681">Wallis &amp; Futuna (+681)</option>
+                            <option data-countrycode="YE" value="969">Yemen (North)(+969)</option>
+                            <option data-countrycode="YE" value="967">Yemen (South)(+967)</option>
+                            <option data-countrycode="ZM" value="260">Zambia (+260)</option>
+                            <option data-countrycode="ZW" value="263">Zimbabwe (+263)</option>
+                          </optgroup>
+                        </div>
+                      </select>     
+                    </div>
+
+                    <div class="col-lg-6">
+                      <input type="text" class="form-control" pattern="[1-9]{1}[0-9]{9}" title="Please enter a valid number" required="" name="phn" placeholder="Your Phone">
+                    </div>
+                    <div class="col-12">
+                      <textarea name="msg" class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <input type="hidden" name="site" value="CropTrails">
+                    <input type="hidden" name="send_from" value="noreply@9930i.com">
+                    <input type="hidden" name="bcc" value="noreply@9930i.com ,sales@croptrails.farm">
+                    <input type="hidden" name="subject" value="Contact Query CropTrails">
+                    <input type="hidden" name="heading" value="Team CropTrails">
+                    <input type="hidden" name="text_message" value="Thank you !! Your Query Regarding CropTrails has been received. We will contact You soon!!">
+                    <input type="hidden" name="redirect_link" value="https://croptrails.farm/">
+                    <!-- <input type="hidden" name="redirect_success_link" value="https://www.9930i.com/thankyou.html"> -->
+                    <input type="hidden" name="redirect_success_link" value="https://croptrails.farm/thankyou.html">
+                    <input type="hidden" name="redirect_failure_link" value="https://croptrails.farm/">
+
+                    <div class="col-12">
+                      <button type="submit" name="button" class="btn famie-btn">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Maps -->
+          <div class="col-lg-6">
+            <div class="contact-maps mb-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.1271631809104!2d75.85775551427591!3d22.686309634506042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fdec80943865%3A0x23d832f028200123!2sOEPP%20Innovations%20Pvt.%20Ltd.%20(9930I)!5e0!3m2!1sen!2sin!4v1569343728189!5m2!1sen!2sin" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+      <!-- Main Footer Area -->
+      <div class="main-footer bg-img bg-overlay section-padding-80-0" style="background-image: url(web/images/img/f2.jpg); background-attachment: fixed;">
+        <div class="container">
+          <div class="row">
+
+            <!-- Single Footer Widget Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="footer-widget mb-80">
+                <a href="#" class="foo-logo d-block mb-30"><img src="web\images\croptrails logoV-03.png" alt=""></a>
+                <p>CropTrails is a web and android based app, specifically designed to overcome challenges and 
+                bridge gaps in process of farm management.</p>
+
+              </div>
+            </div>
+
+
+            <!-- Single Footer Widget Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="footer-widget mb-80">
+                <h5 class="widget-title">KEEP IN TOUCH</h5>
+                <div class="contact-info">
+                  <p><i class="fa fa-building" aria-hidden="true"></i><span>107, 9930Spaces, 3, Mangal Nagar, Indore, M.P. , India , 452014</span></p>
+                  <p><i class="fa fa-envelope" aria-hidden="true"></i><span>
+                    <a href="mailto:&quot;sales@croptrails.farm&quot;" target="_blank" style="color: #fff; text-decoration-color: #fff; font-weight: 300;">sales@croptrails.farm</a>
+                  </span></p>
+                  <p><i class="fa fa-phone" aria-hidden="true"></i><span>+91-9009399903</span></p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Single Footer Widget Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="footer-widget mb-80">
+                <h5 class="widget-title">CROPTRAILS APP</h5>
+
+                <!-- Single Recent News Start -->
+                <div class="single-recent-blog d-flex align-items-center">
+                  <div class="post-thumbnail">
+                    <img src="web\images\croptrails logo-01.png" alt="">
+                  </div>
+                  <div class="post-content">
+
+                    <a href="https://play.google.com/store/apps/details?id=sss.innovation.app.croptrailsapp" style="text-decoration: none;" target="_blank">
+                      <button type="button"  class="btn btn-outline-success btn-lg download-button post-title">
+                        <i class="fa fa-android"></i> Download</button>
+                      </a>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Single Footer Widget Area -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-widget mb-80">
+                  <h5 class="widget-title">STAY CONNECTED</h5>
+                  <!-- Footer Social Info -->
+                  <div class="footer-social-info">
+                    <a href="https://api.whatsapp.com/send?phone=+91-8225993033" style="text-decoration: none;" target="_blank">
+                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                      <span>Whatsapp</span>
+                    </a>
+                    <a href="https://twitter.com/hr_shahsoftsol" style="text-decoration: none;" target="_blank">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                      <span>Twitter</span>
+                    </a>
+                    <a href="https://www.facebook.com/Shahsoftsol/"  style="text-decoration: none;" target="_blank">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <span>Facebook</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Copywrite Area  -->
+        <div class="copywrite-area">
+          <div class="container">
+            <div class="copywrite-text">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <a href="#">
+                  © Copyright @2020 CropTrails | All rights reserved
+                </div></a>
+                <div class="col-md-6">
+                  <div class="footer-nav">
+                    <nav>
+                      <ul>
+                        <li><a href="web\html\privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="web\html\return-policy.html">Return Policy</a></li>
+                        <li><a href="web\html\terms-condition.html">Terms and Condition</a></li>
+                        <li><a href="web\html\disclaimer.html">Disclaimer</a></li>
+                        <li><a href="index.html">Site Map</a></li>
+
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+      <!-- ##### Footer Area End ##### -->
+
+
+
+      <!-- ##### All Javascript Files ##### -->
+      <script src="web\js\link-active.js"></script>
+      <script src="web\js\chatbot.js"></script>
+      <!-- jquery 2.2.4  -->
+      <script src="web\js\jquery.min.js"></script>
+      <!-- Popper js -->
+      <script src="web\js\popper.min.js"></script>
+      <!-- Bootstrap js -->
+      <script src="web\js\bootstrap.min.js"></script>
+      <!-- Owl Carousel js -->
+      <script src="web\js\owl.carousel.min.js"></script>
+      <!-- Classynav -->
+      <script src="web\js\classynav.js"></script>
+      <!-- Wow js -->
+      <script src="web\js\wow.min.js"></script>
+      <!-- Sticky js -->
+      <script src="web\js\jquery.sticky.js"></script>
+      <!-- Magnific Popup js -->
+      <script src="web\js\jquery.magnific-popup.min.js"></script>
+      <!-- Scrollup js -->
+      <script src="web\js\jquery.scrollup.min.js"></script>
+      <!-- Jarallax js -->
+      <script src="web\js\jarallax.min.js"></script>
+      <!-- Jarallax Video js -->
+      <script src="web\js\jarallax-video.min.js"></script>
+      <!-- Active js -->
+      <script src="web\js\active.js"></script>
+
+      <script>
+      $(function(){
+        $('form[name=new_post]').submit(function(){
+          $.post($(this).attr('action'), $(this).serialize(), function(data) {
+            // console.log(data);
+            if(data.status ==1){
+              console.log(data);
+               sessionStorage.setItem("jwtoken", data.object["jwtoken"]);
+            // console.log(data["object"]["jwtoken"]);
+
+            sessionStorage.setItem("user_rights", data["user_rights"]);
+            if (data["user_rights"] == 500) {
+              sessionStorage.setItem("cluster_id", data["cluster_id"]);
+            } else {
+              sessionStorage.setItem("cluster_id", "0");
+            }
+
+            sessionStorage.setItem("user_id", data["user_id"]);
+            sessionStorage.setItem("token", data["token"]);  
+            sessionStorage.setItem(
+                "tokenObject",
+                JSON.stringify(data.object)
+              );            
+            $(location).attr('href','https://croptrails.farm/app2/#/home/dashboard');
+              // alert('login successful');
+            }
+           var message = document.getElementById('msg');
+           message.style.color = "red";
+            if(data.status ==0){
+              msg.innerHTML= 'login failed';
+              // alert('login failed');
+            }
+            if(data.status ==3){
+              msg.innerHTML= 'Company is Deactivated';
+              // alert('Company is Deactivated');
+            }
+            if(data.status ==4){
+              msg.innerHTML= 'Incorrect Credentials';
+              // alert('Incorrect Credentials');
+            }
+            if(data.status ==5){
+              msg.innerHTML= 'Your id is deactivated, please contact your admin';
+              // alert('Your id is deactivated, please contact your admin');
+            }
+
+          }, 'json');
+          return false;
+        });
+      });
+    </script>
+    </body>
+
+    </html>
